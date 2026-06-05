@@ -1,0 +1,36 @@
+@import url(index.css);
+
+.login-container {
+	display: flex;
+	flex-direction: column;
+	min-width: 480px;
+	max-width: 480px;
+	border: 1px solid;
+}
+
+.login-header {
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+	margin: 0rem 0;
+}
+.login-body {
+	padding: 1rem;
+	margin: 0.5rem 0;
+}
+.login-item {
+	padding: 0.25px;
+	margin: 0.25px 0;
+}
+
+.register {
+	padding-top: 0.75rem;
+}
+
+.login-footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 1rem;
+	margin: 0 0;
+}
